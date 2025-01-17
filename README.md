@@ -1,6 +1,6 @@
-# E-Commerce Platform with AI Integration
+# E-commerce-System-Based-on-AI-Agent
 
-Welcome to **E-Commerce Platform** – a cutting-edge, full-featured online shopping solution built for seamless user experiences, efficient management, and powerful AI capabilities. This project integrates modern technologies and tools like MongoDB, Redis, Stripe, and OpenAI to offer an optimized, high-performance e-commerce platform. Whether you're shopping for products or managing a store, this platform is designed to meet the demands of both users and administrators.
+Welcome to **E-Commerce System** – a cutting-edge, full-featured online shopping solution built for seamless user experiences, efficient management, and powerful AI capabilities. This project integrates modern technologies and tools like MongoDB, Redis, Stripe, and OpenAI to offer an optimized, high-performance e-commerce platform. Whether you're shopping for products or managing a store, this platform is designed to meet the demands of both users and administrators.
 
 ![Demo](web_demo/demo1.png)
 
