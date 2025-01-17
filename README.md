@@ -56,6 +56,5 @@ Welcome to **E-Commerce System** – a cutting-edge, full-featured online shoppi
 - **Authentication**: JWT
 - **Payment Gateway**: Stripe
 - **AI**: OpenAI API
-- **Cloud Hosting**: (Add any relevant platform like AWS, Heroku, etc.)
 
 ---
