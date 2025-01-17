@@ -1,0 +1,127 @@
+/* frontend/src/components/ChatBot.css */
+
+.chatbot-container {
+    display: flex;
+    flex-direction: column; /* 垂直排列子元素 */
+    height: 100vh; /* 占满视窗高度 */
+    width: 100%; /* 可根据需要调整宽度 */
+    max-width: 600px; /* 可选：限制最大宽度 */
+    margin: 0 auto; /* 可选：居中容器 */
+    border: 1px solid #ccc; /* 可选：添加边框 */
+    border-radius: 8px; /* 可选：添加圆角 */
+    overflow: hidden; /* 隐藏溢出内容 */
+    background-color: #f9f9f9; /* 可选：设置背景颜色 */
+    box-sizing: border-box; /* 确保内边距不影响宽度 */
+}
+
+.messages {
+    flex: 1; /* 占据剩余的空间 */
+    overflow-y: auto; /* 纵向滚动 */
+    padding: 10px;
+    background-color: #f1f1f1;
+    color: #000000;
+    box-sizing: border-box;
+}
+
+.messages::-webkit-scrollbar {
+    width: 8px;
+}
+
+.messages::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.messages::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.messages::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.userMessage {
+    text-align: right;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #d1e7dd;
+    border-radius: 10px;
+    max-width: 80%;
+    align-self: flex-end;
+    color: #000000;
+}
+
+.botMessage {
+    text-align: left;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f8d7da;
+    border-radius: 10px;
+    max-width: 80%;
+    align-self: flex-start;
+    color: #000000;
+    white-space: pre-wrap;
+}
+
+.inputContainer {
+    display: flex; 
+    align-items: center; 
+    padding: 10px;
+    border-top: 1px solid #ccc; 
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.chatInput {
+    flex: 1; 
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+}
+
+.sendButton {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-size: 16px;
+}
+
+.sendButton:hover {
+    background-color: #0056b3;
+}
+
+@keyframes rainbow-glow {
+    0% {
+        box-shadow: 0 0 10px 4px rgba(255, 0, 0, 0.8), 0 0 20px 8px rgba(255, 165, 0, 0.8), 
+                    0 0 30px 12px rgba(255, 255, 0, 0.8), 0 0 40px 16px rgba(0, 255, 0, 0.8);
+    }
+    25% {
+        box-shadow: 0 0 10px 4px rgba(0, 255, 255, 0.8), 0 0 20px 8px rgba(0, 0, 255, 0.8), 
+                    0 0 30px 12px rgba(255, 0, 255, 0.8), 0 0 40px 16px rgba(255, 0, 0, 0.8);
+    }
+    50% {
+        box-shadow: 0 0 10px 4px rgba(255, 255, 0, 0.8), 0 0 20px 8px rgba(0, 255, 0, 0.8), 
+                    0 0 30px 12px rgba(0, 255, 255, 0.8), 0 0 40px 16px rgba(0, 0, 255, 0.8);
+    }
+    75% {
+        box-shadow: 0 0 10px 4px rgba(255, 0, 255, 0.8), 0 0 20px 8px rgba(255, 0, 0, 0.8), 
+                    0 0 30px 12px rgba(255, 165, 0, 0.8), 0 0 40px 16px rgba(255, 255, 0, 0.8);
+    }
+    100% {
+        box-shadow: 0 0 10px 4px rgba(255, 0, 0, 0.8), 0 0 20px 8px rgba(255, 165, 0, 0.8), 
+                    0 0 30px 12px rgba(255, 255, 0, 0.8), 0 0 40px 16px rgba(0, 255, 0, 0.8);
+    }
+}
+
+.chatbot-container {
+    animation: rainbow-glow 4s infinite linear;
+}
