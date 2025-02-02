@@ -4,6 +4,13 @@ Welcome to **E-Commerce System** – a cutting-edge, full-featured online shoppi
 
 ![Demo](web_demo/demo1.png)
 
+### 😊Learn more about me:
+
+Welcome to my homepage, feel free to click the link below!
+
+[Click here to visit my homepage](http://guonazhi.site)
+
+---
 ## 🚀 Key Features
 
 ### 🛠️ Full Stack Integration
