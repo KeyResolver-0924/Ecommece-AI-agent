@@ -8,7 +8,6 @@ Welcome to **E-Commerce System** – a cutting-edge, full-featured online shoppi
 
 Welcome to my homepage, feel free to click the link below!
 
-[Click here to visit my homepage](http://guonazhi.site)
 
 ---
 ## 🚀 Key Features
